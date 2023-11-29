@@ -4,142 +4,99 @@ interface BoardProps {
   isSelected: boolean;
 }
 
-const line: BoardProps[] = [
-  {
-    figure: "pawn",
-    isBlack: false,
-    isSelected: false,
-  },
-  {
-    figure: "pawn",
-    isBlack: true,
-    isSelected: false,
-  },
-  {
-    figure: "pawn",
-    isBlack: false,
-    isSelected: false,
-  },
-  {
-    figure: "pawn",
-    isBlack: true,
-    isSelected: false,
-  },
-  {
-    figure: "pawn",
-    isBlack: false,
-    isSelected: false,
-  },
-  {
-    figure: "pawn",
-    isBlack: true,
-    isSelected: false,
-  },
-  {
-    figure: "pawn",
-    isBlack: false,
-    isSelected: false,
-  },
-  {
-    figure: "pawn",
-    isBlack: true,
-    isSelected: false,
-  },
-];
-
 const Board: BoardProps[][] = [
   [
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
   ],
   [
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
     {
       figure: "rook",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
   ],
   [
     {
-      figure: "bishop",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
@@ -149,237 +106,237 @@ const Board: BoardProps[][] = [
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
   ],
   [
     {
-      figure: "rook",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-  ],
-  [
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-  ],
-  [
-    {
-      figure: "rook",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: false,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
-      isBlack: true,
-      isSelected: false,
-    },
-    {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
   ],
   [
     {
-      figure: "bishop",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
   ],
   [
     {
-      figure: "rook",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
-      isSelected: true,
+      isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: false,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
       isBlack: true,
       isSelected: false,
     },
     {
-      figure: "pawn",
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+  ],
+  [
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+  ],
+  [
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: false,
+      isSelected: false,
+    },
+    {
+      figure: "",
+      isBlack: true,
+      isSelected: false,
+    },
+    {
+      figure: "",
       isBlack: false,
       isSelected: false,
     },

@@ -1,4 +1,7 @@
-export { default as Pawn } from "./pawn";
-export { default as Rook } from "./rook";
-export { default as Trash } from "./trash";
-export { default as Bishop } from "./bishop";
+import Bishop from "./bishop";
+import Pawn from "./pawn";
+import Rook from "./rook";
+import Trash from "./trash";
+
+
+export { Pawn, Rook, Trash, Bishop };

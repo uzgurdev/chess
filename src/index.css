@@ -40,8 +40,72 @@
 }
 
 .cell {
+  width: 100px;
+  height: 50px;
+  padding: 2px;
+  cursor: pointer;
+  /* overflow: hidden; */
+  border-radius: 5px;
+  transition: 0.1s linear;
+}
+
+.cell .figure {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell .figure svg {
+  width: 100%;
+  height: 80%;
+  transition: 0.1s linear;
+}
+
+.cell.black {
+  width: 100px;
+  height: 50px;
+  background-color: var(--primary);
+  border: 1px solid var(--black);
+}
+
+.cell:hover {
+  z-index: 1;
+  /* overflow: hidden; */
+  transform: translate(6px, -4px);
+  box-shadow: -2px 4px 0 1px #000;
+  border: 1px solid var(--black);
+}
+
+.select {
+  top: -40px;
+  right: -70px;
+  z-index: 3;
+  height: 50px;
+  display: flex;
+  transform: scale(0);
+  width: max-content;
+  position: absolute;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  transition: 0.1s linear;
+  border: 1px solid var(--black);
+}
+
+.selected {
+  transform: scale(1);
+}
+
+/* .cell:hover .selected {
+  transform: scale(1);
+} */
+
+.selected div {
+  width: 40px;
+  height: 40px;
   display: flex;
   cursor: pointer;
   overflow: hidden;
@@ -51,33 +115,8 @@
   transition: 0.1s linear;
 }
 
-.cell.black {
-  width: 100%;
-  height: 100%;
-  background-color: var(--primary);
-  border: 1px solid var(--black);
-}
-
-.cell:hover {
-  z-index: 1;
-  transform: translate(6px, -4px);
-  box-shadow: -2px 4px 0 1px #000;
-  border: 1px solid var(--black);
-}
-
-.selected {
-  top: -40px;
-  z-index: 1;
-  height: 50px;
-  display: flex;
-  width: max-content;
-  position: absolute;
-  border-radius: 5px;
-  align-items: center;
-  justify-content: center;
-  background: var(--white);
-  transition: 0.1s linear;
-  border: 1px solid var(--black);
+.selected div:hover {
+  background: var(--cell-hover);
 }
 
 .selected svg {
