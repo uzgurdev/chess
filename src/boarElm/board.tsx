@@ -5,9 +5,6 @@ import Cell from "./cell";
 export default function BoardElm() {
   const [board, setBoard] = useState(Board);
 
-  useEffect(() => {
-    console.log("board: ", board);
-  }, [board]);
   function setSelected(x: number, y: number) {
     const newBoard = Board.map((row) => {
       return row.map((cell) => Object.assign({}, cell));
